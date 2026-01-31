@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckCircle } from 'lucide-react';
+import { CircleCheck } from 'lucide-react';
 
 const Features = () => {
     return (
@@ -20,7 +20,7 @@ const Features = () => {
                             ].map((item, i) => (
                                 <div key={i} className="flex gap-4">
                                     <div className="mt-1 flex-shrink-0 w-6 h-6 rounded-full bg-cyan-500/20 flex items-center justify-center text-cyan-400">
-                                        <CheckCircle size={14} />
+                                        <CircleCheck size={14} />
                                     </div>
                                     <div>
                                         <h4 className="text-white font-bold text-lg">{item.title}</h4>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Gauge, CheckCircle, ArrowRight, AlertTriangle } from 'lucide-react';
+import { Gauge, CircleCheck, ArrowRight, TriangleAlert } from 'lucide-react';
 
 const Comparison = () => {
     return (
@@ -19,13 +19,13 @@ const Comparison = () => {
                         </p>
                         <ul className="space-y-4 mb-8">
                             <li className="flex items-center gap-3 text-white">
-                                <CheckCircle className="text-cyan-500" size={20} /> Economia de peças desnecessárias
+                                <CircleCheck className="text-cyan-500" size={20} /> Economia de peças desnecessárias
                             </li>
                             <li className="flex items-center gap-3 text-white">
-                                <CheckCircle className="text-cyan-500" size={20} /> Resolução definitiva do problema
+                                <CircleCheck className="text-cyan-500" size={20} /> Resolução definitiva do problema
                             </li>
                             <li className="flex items-center gap-3 text-white">
-                                <CheckCircle className="text-cyan-500" size={20} /> Limpeza de bicos ultrassônica
+                                <CircleCheck className="text-cyan-500" size={20} /> Limpeza de bicos ultrassônica
                             </li>
                         </ul>
                         <a href="#localizacao" className="text-amber-500 font-bold flex items-center gap-2 hover:gap-4 transition-all">
@@ -42,7 +42,7 @@ const Comparison = () => {
                                     <p className="text-xs font-bold text-red-500 uppercase tracking-wider text-center">Antes (Erro)</p>
                                     <div className="aspect-square bg-slate-900 rounded-lg flex items-center justify-center border border-red-900/30 relative overflow-hidden group">
                                         <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&q=80" alt="Painel com luz de injeção acesa" loading="lazy" className="absolute inset-0 w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 transition-all" />
-                                        <AlertTriangle className="text-red-500 relative z-10 w-12 h-12 animate-pulse" />
+                                        <TriangleAlert className="text-red-500 relative z-10 w-12 h-12 animate-pulse" />
                                     </div>
                                     <p className="text-xs text-center text-slate-500">Luz de Injeção Acesa</p>
                                 </div>
@@ -50,7 +50,7 @@ const Comparison = () => {
                                     <p className="text-xs font-bold text-emerald-500 uppercase tracking-wider text-center">Depois (Solução)</p>
                                     <div className="aspect-square bg-slate-900 rounded-lg flex items-center justify-center border border-emerald-900/30 relative overflow-hidden group">
                                         <img src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?auto=format&fit=crop&q=80" alt="Scanner Automotivo mostrando sistema ok" loading="lazy" className="absolute inset-0 w-full h-full object-cover opacity-60 grayscale group-hover:grayscale-0 transition-all" />
-                                        <CheckCircle className="text-emerald-500 relative z-10 w-12 h-12" />
+                                        <CircleCheck className="text-emerald-500 relative z-10 w-12 h-12" />
                                     </div>
                                     <p className="text-xs text-center text-slate-500">Sistema Regularizado</p>
                                 </div>
