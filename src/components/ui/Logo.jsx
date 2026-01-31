@@ -24,7 +24,7 @@ const Logo = ({ className = "h-12" }) => {
 
     return (
         <img
-            src="logo.png"
+            src="logo2.png"
             alt="Auto Bombas - Especialistas em Injeção Eletrônica"
             aria-label="Auto Bombas Logo"
             className={`${className} object-contain hover:scale-105 transition-transform`}
